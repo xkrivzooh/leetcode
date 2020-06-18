@@ -8,7 +8,7 @@ package xyz.xkrivzooh.leetcode;
  * 如果 tmp > 0，则说明 tmp 对结果有增益效果，则 tmp 保留并加上当前遍历数字
  * 如果 tmp <= 0，则说明 tmp 对结果无增益效果，需要舍弃，则 tmp 直接更新为当前遍历数字
  * 每次比较 tmp 和 result的大小，将最大值置为result，遍历结束返回结果
- * 时间复杂度：O(n)O(n)
+ * 时间复杂度：O(n)
  */
 public class Leetcode53 {
 	public int maxSubArray(int[] nums) {
