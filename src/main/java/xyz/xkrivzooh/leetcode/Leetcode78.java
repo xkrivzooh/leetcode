@@ -25,3 +25,26 @@ public class Leetcode78 {
 	}
 }
 
+
+//////////////////
+//使用回溯思想
+//class Solution {
+//	private List<List<Integer>> result = new ArrayList<>(new ArrayList<>());
+//
+//	public List<List<Integer>> subsets(int[] nums) {
+//		if (nums == null || nums.length == 0) {
+//			return result;
+//		}
+//		process(nums, new ArrayList<>(), 0);
+//		return result;
+//	}
+//
+//	private void process(int[] nums, List<Integer> resultElement, int start) {
+//		result.add(new ArrayList<>(resultElement));
+//		for (int i = start; i < nums.length; i++) {
+//			resultElement.add(nums[i]);
+//			process(nums, resultElement, i + 1);
+//			resultElement.remove(resultElement.size() -1);
+//		}
+//	}
+//}
