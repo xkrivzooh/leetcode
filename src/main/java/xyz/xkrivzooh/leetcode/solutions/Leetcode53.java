@@ -1,4 +1,4 @@
-package xyz.xkrivzooh.leetcode;
+package xyz.xkrivzooh.leetcode.solutions;
 
 /**
  * https://leetcode-cn.com/problems/maximum-subarray/

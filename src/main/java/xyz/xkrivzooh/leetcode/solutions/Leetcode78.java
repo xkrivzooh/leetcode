@@ -1,4 +1,4 @@
-package xyz.xkrivzooh.leetcode;
+package xyz.xkrivzooh.leetcode.solutions;
 
 import java.util.ArrayList;
 import java.util.List;

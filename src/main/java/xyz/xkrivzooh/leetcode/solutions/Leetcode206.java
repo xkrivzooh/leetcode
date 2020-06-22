@@ -1,4 +1,4 @@
-package xyz.xkrivzooh.leetcode;
+package xyz.xkrivzooh.leetcode.solutions;
 
 /**
  *   [206] 反转链表
