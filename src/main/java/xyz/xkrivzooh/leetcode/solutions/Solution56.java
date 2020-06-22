@@ -2,6 +2,10 @@ package xyz.xkrivzooh.leetcode.solutions;
 
 import java.util.Arrays;
 
+/**
+ * 区间合并
+ * https://leetcode-cn.com/problems/merge-intervals/
+ */
 class Solution56 {
 
     public int[][] merge(int[][] intervals) {
