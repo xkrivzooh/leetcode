@@ -27,6 +27,5 @@ public class Solution724 {
         }
 
         return -1;
-
     }
 }
