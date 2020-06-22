@@ -4,7 +4,7 @@ package xyz.xkrivzooh.leetcode.solutions;
  * 35. 搜索插入位置
  * https://leetcode-cn.com/problems/search-insert-position/
  */
-public class Leetcode35 {
+public class Solution35 {
 
     public int searchInsert(int[] nums, int target) {
         if (nums == null || nums.length == 0) {

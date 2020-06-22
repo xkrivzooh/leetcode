@@ -10,7 +10,7 @@ package xyz.xkrivzooh.leetcode.solutions;
  * 每次比较 tmp 和 result的大小，将最大值置为result，遍历结束返回结果
  * 时间复杂度：O(n)
  */
-public class Leetcode53 {
+public class Solution53 {
 	public int maxSubArray(int[] nums) {
 		int result = nums[0];
 		int tmp = 0;

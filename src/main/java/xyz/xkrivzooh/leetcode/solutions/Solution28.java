@@ -4,7 +4,7 @@ package xyz.xkrivzooh.leetcode.solutions;
  * 实现 strStr()
  * https://leetcode-cn.com/problems/implement-strstr/
  */
-public class LeetCode28 {
+public class Solution28 {
 
 	public int strStr(String haystack, String needle) {
 		//此处返回0是为了和java中的indexOf的返回值一样

@@ -7,7 +7,7 @@ import java.util.List;
  * LeetCode78 https://leetcode-cn.com/problems/subsets/
  * 解法思路，逐个枚举，空集的幂集只有空集，每增加一个元素，让之前幂集中的每个集合，追加这个元素，就是新增的子集。
  */
-public class Leetcode78 {
+public class Solution78 {
 	public List<List<Integer>> subsets(int[] nums) {
 		List<List<Integer>> result = new ArrayList<>();
 		//添加空集合

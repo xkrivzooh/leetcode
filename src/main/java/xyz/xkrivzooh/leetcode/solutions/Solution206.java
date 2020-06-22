@@ -7,7 +7,7 @@ package xyz.xkrivzooh.leetcode.solutions;
  */
 
 
-public class Leetcode206 {
+public class Solution206 {
 	public static class ListNode {
 		int val;
 
