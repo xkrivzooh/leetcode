@@ -8,7 +8,8 @@ public class Solution724 {
 
     public int pivotIndex(int[] nums) {
         if (nums == null || nums.length == 0) {
-            return 0;
+            //此处返回的是-1，不是0
+            return -1;
         }
 
         int totalSum = 0;
@@ -21,6 +22,7 @@ public class Solution724 {
             if (leftSumValue == (totalSum - nums[i] - leftSumValue)) {
                 return i;
             }
+            //先判断在相加
             leftSumValue += nums[i];
         }
 
