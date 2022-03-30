@@ -1,3 +1,5 @@
+package xyz.xkrivzooh.leetcode.solutions.二分查找;
+
 import java.util.List;
 import java.util.Stack;
 import java.util.ArrayList;

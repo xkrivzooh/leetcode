@@ -1,3 +1,5 @@
+package xyz.xkrivzooh.leetcode.solutions.二分查找;
+
 class Solution {
     public static int mySqrt(int x) {
         if (x == 0 || x == 1) {
